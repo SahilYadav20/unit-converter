@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background-size: cover;
+}
+body {
+	background-image: url('abcd.jpg');
+    font-family: 'Raleway Dots', cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+	padding: 20px;
+}
+.container {
+	padding: 32px;
+	border-radius: 20px;
+	max-width: 400px;
+	width: 100%;
+	background: #FCFFE7;
+	box-shadow: 20px 20px 40px #BAD7E9, -8px -8px 16px rgba(0,0,0,0.1) inset;
+	
+}
+.title {
+	text-align: center;
+}
+.input-container {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+}
+.input-container input {
+	padding: 8px;
+	border-radius: 4px;
+	margin-top: 4px;
+	border: 1px solid black;
+	outline: 0;
+}
